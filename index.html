@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiempos Mejores</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #2F2D29;
+        color: #cfc8bf;
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+      }
+      img {
+        width: min(320px, 80vw);
+        height: auto;
+        display: block;
+      }
+      .tagline {
+        font-size: 1.5rem;
+        letter-spacing: 0.05em;
+        color: #8b8580;
+        font-weight: bold;
+      }
+      .contact {
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+      }
+      a {
+        color: #cfc8bf;
+      }
+      a:hover,
+      a:focus {
+        color: #f5e9d8;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="tiemposmejores-logo.png" alt="Tiempos Mejores" />
+      <p class="tagline">infraestructura para soñadores</p>
+      <p class="contact">
+        contáctanos x
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          instagram
+        </a>
+      </p>
+    </main>
+  </body>
+</html>
+
