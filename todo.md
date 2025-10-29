@@ -1,0 +1,2 @@
+- add a higher res pic
+- add better font
